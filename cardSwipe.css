@@ -1,0 +1,56 @@
+html, body{
+    background: linear-gradient(to right top, #D198C5ff, #E0C568FF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.frame{
+    position: relative;
+    width: 360px;
+    height: 540px;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    user-select: none;
+    touch-action: none;      
+    /* 포인터 무브시 모바일에서 정상적으로 작동가능 */
+}
+
+.btns{
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.btns > div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0 , 0, 0, 0.1);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btns > div:nth-child(1) {margin-right: 20px;}
+
